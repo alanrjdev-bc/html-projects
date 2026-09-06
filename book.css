@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(13, 18, 13);
+}
+h1{
+    position: relative;
+    margin-left: 600px;
+    color: white;
+    font-family:'Anton', monospace;
+    font-size: 50px;
+}
+img{
+    width: 200px;
+    height: 300px;
+     box-shadow: 5px 5px 10px black;
+}
+.bookone{
+    position: absolute;
+    left: 100px;
+
+}
+.booktwo{
+    position: absolute;
+    left: 400px;
+   
+}
+.bookthree{
+    position: absolute;
+    left: 700px;
+}
+.bookfour{
+    position: absolute;
+    left: 1000px;
+
+}
+.bookfive{
+      position: absolute;
+    left: 1300px;
+}
