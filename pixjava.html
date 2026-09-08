@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pixjava.css">
+    <title>Document</title>
+    <style>
+.box:nth-child(36), .box:nth-child(37), .box:nth-child(61), .box:nth-child(62), .box:nth-child(63),
+ .box:nth-child(64), .box:nth-child(87), .box:nth-child(88), .box:nth-child(89), .box:nth-child(90),
+  .box:nth-child(91), .box:nth-child(112), .box:nth-child(114), .box:nth-child(115), .box:nth-child(116),
+   .box:nth-child(117), .box:nth-child(136), .box:nth-child(141), .box:nth-child(142), .box:nth-child(143), 
+   .box:nth-child(144), .box:nth-child(159), .box:nth-child(160), .box:nth-child(161), .box:nth-child(167), 
+   .box:nth-child(168), .box:nth-child(169), .box:nth-child(183), .box:nth-child(184), .box:nth-child(193),
+    .box:nth-child(194), .box:nth-child(208), .box:nth-child(218), .box:nth-child(219), .box:nth-child(229), 
+    .box:nth-child(232), .box:nth-child(243), .box:nth-child(244), .box:nth-child(247), .box:nth-child(252), 
+    .box:nth-child(253), .box:nth-child(254), .box:nth-child(257), .box:nth-child(269), .box:nth-child(270),
+     .box:nth-child(271), .box:nth-child(272), .box:nth-child(273), .box:nth-child(277), .box:nth-child(278),
+      .box:nth-child(279), .box:nth-child(280), .box:nth-child(282), .box:nth-child(294), .box:nth-child(295),
+       .box:nth-child(296), .box:nth-child(297), .box:nth-child(298), .box:nth-child(302), .box:nth-child(303),
+        .box:nth-child(304), .box:nth-child(305), .box:nth-child(306), .box:nth-child(323), .box:nth-child(324),
+         .box:nth-child(327), .box:nth-child(328), .box:nth-child(329), .box:nth-child(348), .box:nth-child(349),
+          .box:nth-child(352), .box:nth-child(372), .box:nth-child(373), .box:nth-child(377), .box:nth-child(378),
+           .box:nth-child(398), .box:nth-child(403), .box:nth-child(429), .box:nth-child(454), .box:nth-child(455),
+            .box:nth-child(470), .box:nth-child(471), .box:nth-child(481), .box:nth-child(494), .box:nth-child(495) {
+    background-color: #CD0C00;
+}
+.box:nth-child(113), .box:nth-child(137), .box:nth-child(139),
+ .box:nth-child(140), .box:nth-child(162), .box:nth-child(165), 
+ .box:nth-child(166), .box:nth-child(185), .box:nth-child(186), 
+ .box:nth-child(192), .box:nth-child(209), .box:nth-child(210), 
+ .box:nth-child(217), .box:nth-child(233), .box:nth-child(234), 
+ .box:nth-child(242), .box:nth-child(258), .box:nth-child(267),
+  .box:nth-child(268), .box:nth-child(283), .box:nth-child(292),
+   .box:nth-child(293), .box:nth-child(307), .box:nth-child(308),
+    .box:nth-child(318), .box:nth-child(319), .box:nth-child(321),
+     .box:nth-child(322), .box:nth-child(330), .box:nth-child(331),
+      .box:nth-child(332), .box:nth-child(333), .box:nth-child(346), 
+      .box:nth-child(347), .box:nth-child(353), .box:nth-child(354),
+       .box:nth-child(370), .box:nth-child(371), .box:nth-child(379), 
+       .box:nth-child(395), .box:nth-child(396), .box:nth-child(397), 
+       .box:nth-child(404), .box:nth-child(405), .box:nth-child(421),
+        .box:nth-child(422), .box:nth-child(430), .box:nth-child(445), 
+        .box:nth-child(446), .box:nth-child(456), .box:nth-child(457), 
+        .box:nth-child(468), .box:nth-child(469), .box:nth-child(482), 
+        .box:nth-child(483), .box:nth-child(492), .box:nth-child(493) {
+    background-color: #FF4610;
+}
+.box:nth-child(138),.box:nth-child(434),.box:nth-child(487), 
+.box:nth-child(163), .box:nth-child(164), .box:nth-child(187),
+ .box:nth-child(188), .box:nth-child(189), .box:nth-child(190),
+  .box:nth-child(191), .box:nth-child(211), .box:nth-child(212), 
+  .box:nth-child(213), .box:nth-child(214), .box:nth-child(215),
+   .box:nth-child(216), .box:nth-child(235), .box:nth-child(236), 
+   .box:nth-child(237), .box:nth-child(238), .box:nth-child(239), 
+   .box:nth-child(240), .box:nth-child(241), .box:nth-child(259), 
+   .box:nth-child(260), .box:nth-child(261), .box:nth-child(262), 
+   .box:nth-child(263), .box:nth-child(264), .box:nth-child(265), 
+   .box:nth-child(266), .box:nth-child(284), .box:nth-child(285), 
+   .box:nth-child(286), .box:nth-child(287), .box:nth-child(288), 
+   .box:nth-child(289), .box:nth-child(290), .box:nth-child(291), 
+   .box:nth-child(309), .box:nth-child(310), .box:nth-child(311), 
+   .box:nth-child(312), .box:nth-child(313), .box:nth-child(314), 
+   .box:nth-child(315), .box:nth-child(316), .box:nth-child(317), 
+   .box:nth-child(320), .box:nth-child(334), .box:nth-child(335), 
+   .box:nth-child(336), .box:nth-child(337), .box:nth-child(338), 
+   .box:nth-child(339), .box:nth-child(340), .box:nth-child(341),
+    .box:nth-child(342), .box:nth-child(343), .box:nth-child(344), 
+    .box:nth-child(345), .box:nth-child(355), .box:nth-child(356),
+     .box:nth-child(357), .box:nth-child(358), .box:nth-child(359),
+      .box:nth-child(360), .box:nth-child(361), .box:nth-child(362),
+       .box:nth-child(363), .box:nth-child(364), .box:nth-child(365), 
+       .box:nth-child(366), .box:nth-child(367), .box:nth-child(368),
+        .box:nth-child(369), .box:nth-child(380), .box:nth-child(381), 
+        .box:nth-child(382), .box:nth-child(383), .box:nth-child(384), 
+        .box:nth-child(385), .box:nth-child(386), .box:nth-child(387),
+         .box:nth-child(388), .box:nth-child(389), .box:nth-child(390), 
+         .box:nth-child(391), .box:nth-child(392), .box:nth-child(393), 
+         .box:nth-child(394), .box:nth-child(406), .box:nth-child(407), 
+         .box:nth-child(408), .box:nth-child(409), .box:nth-child(410), 
+         .box:nth-child(411), .box:nth-child(412), .box:nth-child(413),
+          .box:nth-child(414), .box:nth-child(415), .box:nth-child(416),
+           .box:nth-child(417), .box:nth-child(418), .box:nth-child(419), 
+           .box:nth-child(420), .box:nth-child(431), .box:nth-child(432),
+            .box:nth-child(433), .box:nth-child(435), .box:nth-child(436), 
+            .box:nth-child(437), .box:nth-child(438), .box:nth-child(439), 
+            .box:nth-child(440), .box:nth-child(441), .box:nth-child(442), 
+            .box:nth-child(443), .box:nth-child(444), .box:nth-child(458), 
+            .box:nth-child(459), .box:nth-child(460), .box:nth-child(461), 
+            .box:nth-child(462), .box:nth-child(463), .box:nth-child(464), 
+    .box:nth-child(465), .box:nth-child(466), .box:nth-child(467), .box:nth-child(484), 
+    .box:nth-child(485), .box:nth-child(486), .box:nth-child(488), .box:nth-child(489), .box:nth-child(490), .box:nth-child(491) {
+    background-color: #FFCC46;
+}
+</style>
+</head>
+
+<body>
+    <h1>Pixel Art</h1>
+    <div  class="Container">
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     <div class="box"></div>
+     
+    </div>
+
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+.Container{
+    display: grid;
+    grid-template-columns: repeat(25, 20px);
+    gap: 1px;
+    width: fit-content;
+    position:absolute;
+    margin-left:450px;
+}
+.box{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+}
